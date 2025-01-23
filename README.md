@@ -24,6 +24,12 @@ Most top loading bars use NProgress, which has several drawbacks:
 - TypeScript support
 - Tiny bundle size
 
+## Prerequisites
+
+- Next.js 13.0.0 or higher
+- React 18.2.0 or higher
+- Tailwind CSS 3.2.0 or higher
+
 ## Installation
 
 ```bash
