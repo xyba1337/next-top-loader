@@ -18,6 +18,12 @@
     "progress",
     "loading-bar"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "author": "xyba1337",
   "license": "MIT",
   "devDependencies": {
