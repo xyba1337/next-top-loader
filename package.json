@@ -8,14 +8,30 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "files": ["dist"],
-  "keywords": ["nextjs", "react", "loader", "progress", "loading-bar"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "nextjs",
+    "react",
+    "loader",
+    "progress",
+    "loading-bar"
+  ],
   "author": "xyba1337",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.9",
     "@types/react": "^19.0.8",
     "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyba1337/next-top-loader.git"
+  },
+  "homepage": "https://github.com/xyba1337/next-top-loader#readme",
+  "bugs": {
+    "url": "https://github.com/xyba1337/next-top-loader/issues"
   },
   "peerDependencies": {
     "next": ">=13.0.0",
