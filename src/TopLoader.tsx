@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect } from "react";
 import { TopLoaderTypes } from "./types";
 import { useRouterRefresh } from "./useRouterRefresh";
